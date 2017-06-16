@@ -10,13 +10,12 @@ package tugasdua;
  * @author iman
  */
 public class TugasDua {
-
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-    }
-    
+        TugasDuaForm f = new TugasDuaForm();
+        f.setVisible(true);
+    }    
 }
